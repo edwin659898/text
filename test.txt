@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BGF Applications</title>
+    <!-- TailwindCSS File -->
+    <link rel="stylesheet" href="./css/dist.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       <nav class="navbar navbar-expand-md p-2 bg-gradient-to-r from-blue-600 via-green-300 to-green-600 shadow-sm mb-4">
+      <div class="container">
+        <div class="flex items-center font-bold">
+          <img
+            src="https://maintainance.bgfticketing.com/public/storage/logo.png"
+            class="h-8 shadow rounded-full"
+            alt=""
+          />
+          <span class="text-white ml-1 mt-1">Internal Applications</span>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+     <!-- ==== Main ==== -->
+    <section class="h-screen grid grid-cols-1 lg:flex justify-center gap-0 container mx-auto mt-5 lg:mt-10">
+        <main class="flex flex-col items-center max-h-max lg:mt-20">
+            <div class="info">
+			    <div class="flex flex-row items-center space-x-3">
+                    <img class="h-8 fill-current mb-4" src="https://ipr.bgfticketing.com/public/storage/miti.png">
+                </div>             
+                <h4 class="text-3xl lg:text-3xl font-semibold text-blue-500 tracking-wide">Better Globe Forestry LTD</h4>
+                <h1 class="text-sm text-green-500 font-extrabold font-italic -ml-1 my-4 ps5-text">“Prosperity with purpose”</h1> 
+                <span class="text-xs md:text-sm lg:text-sm text-green-500 font-semibold tracking-wider">/ The Digital World</span>				
+                <div class="lg:mt-6 mt-6 mb-24 lg:mb-0 social">
+                    <ul class="flex items-center space-x-4">
+                        <li>
+                            <a href="#" class="text-xs md:text-sm lg:text-sm text-blue-700 font-semibold capitalize">
+                                / efficiency
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-xs md:text-sm lg:text-sm text-blue-700 font-semibold capitalize">
+                                / reliability
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-xs md:text-sm lg:text-sm text-blue-700 font-semibold capitalize">
+                               / timely
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+		
+
+        <!-- More Info -->
+        <main class="pb-16 details">
+            <div class="">
+                <ul class="flex flex-col lg:items-center px-5 space-y-4 lg:mt-8 lg:mt-16">
+                    <a href="#">
+                        <li class="border-b border-gray-200 pb-3">
+                            <main class="flex space-x-3 pb-3">
+                                <div>
+                                    <img src="./img/ticket.jpg" alt="ps5-controller" class="w-24 object-cover">
+                                </div>
+                                <div class="flex flex-col">
+                                    <h5 class="text-green-500 text-md tracking-wider font-semibold">Ticketing System</h5>
+                                    <a href="#" class="text-sm text-blue-700 tracking-wider border-b-2 border-gray-300 w-max">Visit Now</a>
+                                </div>
+                            </main>
+                        </li>
+                    </a>
+					
+					<a href="#">
+                        <li class="border-b border-gray-200 pb-3">
+                            <main class="flex space-x-3 pb-3">
+                                <div>
+                                    <img src="./img/employee.jpg" alt="ps5-hd-camara" class="w-24 object-cover">
+                                </div>
+                                <div class="flex flex-col">
+                                    <h5 class="text-green-500 text-md tracking-wider font-semibold">Employee Portal</h5>
+                                    <a href="#" class="text-sm text-blue-700 tracking-wider border-b-2 border-gray-300 w-max">Visit Now</a>
+                                </div>
+                            </main>
+                        </li>
+                    </a>
+					
+                    <a href="#">
+                        <li class="border-b border-gray-200 pb-3">
+                            <main class="flex space-x-3 pb-3">
+                                <div>
+                                    <img src="./img/trac.jpg" alt="ps5-remote" class="w-24 object-cover">
+                                </div>
+                                <div class="flex flex-col">
+                                    <h5 class="text-green-500 text-md tracking-wider font-semibold">Maintainance App</h5>
+                                    <a href="#" class="text-sm text-blue-700 tracking-wider border-b-2 border-gray-300 w-max">Visit Now</a>
+                                </div>
+                            </main>
+                        </li>
+                    </a>
+               
+					
+					<a href="#">
+                        <li>
+                            <main class="flex space-x-3">
+                                <div>
+                                    <img src="./img/tree.jpg" alt="ps5-console" class="w-24 object-cover">
+                                </div>
+                                <div class="flex flex-col">
+                                    <h5 class="text-green-500 text-md tracking-wider font-semibold">Compartment App</h5>
+                                    <a href="#" class="text-sm text-blue-700 tracking-wider border-b-2 border-gray-300 w-max">Visit Now</a>
+                                </div>
+                            </main>
+                        </li>
+                    </a>			
+                </ul>
+            </div>
+        </main>
+		
+		 <!-- More Info -->
+        <main class="pb-16 details">
+            <div class="">
+                <ul class="flex flex-col lg:items-center px-5 space-y-4 lg:mt-8 lg:mt-16">
+                    <a href="#">
+                        <li class="border-b border-gray-200 pb-3">
+                            <main class="flex space-x-3 pb-3">
+                                <div>
+                                    <img src="./img/moni.jpg" alt="ps5-controller" class="w-24 object-cover">
+                                </div>
+                                <div class="flex flex-col">
+                                    <h5 class="text-green-500 text-md tracking-wider font-semibold">CAR App</h5>
+                                    <a href="#" class="text-sm text-blue-700 tracking-wider border-b-2 border-gray-300 w-max">Visit Now</a>
+                                </div>
+                            </main>
+                        </li>
+                    </a>
+					
+                    <a href="#">
+                        <li class="border-b border-gray-200 pb-3">
+                            <main class="flex space-x-3 pb-3">
+                                <div>
+                                    <img src="./img/ipr.png" alt="ps5-remote" class="w-24 object-cover">
+                                </div>
+                                <div class="flex flex-col">
+                                    <h5 class="text-green-500 text-md tracking-wider font-semibold">IPR System</h5>
+                                    <a href="#" class="text-sm text-blue-700 tracking-wider border-b-2 border-gray-300 w-max">Visit Now</a>
+                                </div>
+                            </main>
+                        </li>
+                    </a>
+               
+					
+					<a href="#">
+                        <li>
+                            <main class="flex space-x-3">
+                                <div>
+                                    <img src="./img/survey.png" alt="ps5-console" class="w-24 object-cover">
+                                </div>
+                                <div class="flex flex-col">
+                                    <h5 class="text-green-500 text-md tracking-wider font-semibold">Survey App</h5>
+                                    <a href="#" class="text-sm text-blue-700 tracking-wider border-b-2 border-gray-300 w-max">Visit Now</a>
+                                </div>
+                            </main>
+                        </li>
+                    </a>					
+                </ul>
+            </div>
+        </main>
+    </section>
+
+    
+<!--  ==== JQuery CDN  ==== -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- ==== GSAP CDN ==== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+<!-- ====  CUSTOM SCRIPT ==== -->
+<script src="script.js" defer></script>
+</body>
+</html>
